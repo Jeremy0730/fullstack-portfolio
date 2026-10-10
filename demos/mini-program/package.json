@@ -1,0 +1,21 @@
+{
+  "name": "northline-mini",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5175",
+    "build": "vite build",
+    "preview": "vite preview --port 5175"
+  },
+  "dependencies": {
+    "pinia": "^2.3.1",
+    "vue": "^3.5.22",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.4",
+    "typescript": "~5.7.3",
+    "vite": "^6.3.6"
+  }
+}
